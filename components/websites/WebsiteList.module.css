@@ -2,11 +2,6 @@
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	display: inline-block;
-}
-
-.test {
 	display: flex;
-	flex-direction: row;
-	background-color: black;
+	flex-direction: column;
 }

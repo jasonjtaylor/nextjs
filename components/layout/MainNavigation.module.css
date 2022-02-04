@@ -7,17 +7,12 @@
 	background-color: #888686;
 	padding: 0 10%;
 	cursor: pointer;
+	font-family: "Roboto";
 }
 
 .header img {
 	height: 8rem;
 	width: 8rem;
-}
-
-.logo {
-	font-size: 1.5rem;
-	color: white;
-	font-weight: bold;
 }
 
 .header ul {
@@ -26,20 +21,23 @@
 	padding: 0;
 	display: flex;
 	align-items: baseline;
+	font-family: "Roboto";
 }
 
 .header li {
 	margin-left: 3rem;
+	font-family: "Roboto";
 }
 
 .header a {
 	text-decoration: none;
-	font-size: 1.5rem;
-	color: #ffffff;
+	font-size: 1.25rem;
+	color: #030303;
+	font-family: "Roboto";
 }
 
 .header a:hover,
 .header a:active,
 .header a.active {
-	color: white;
+	color: rgb(0, 0, 0);
 }

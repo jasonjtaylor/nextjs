@@ -1,7 +1,8 @@
 .main {
-	margin: 3rem auto;
-	width: 90%;
+	margin: 2rem auto;
+	width: 35%;
 	max-width: 40rem;
-	/* display: flex;
-	flex-direction: row; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 }

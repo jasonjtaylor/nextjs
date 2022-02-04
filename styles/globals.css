@@ -15,3 +15,97 @@ h5,
 h6 {
 	font-family: "Roboto";
 }
+
+a {
+	text-decoration: none;
+	outline: none !important;
+	color: #fff;
+}
+
+.border-shape {
+	background: #000000 none repeat scroll 0 0;
+	display: block;
+	height: 1.5px;
+	left: 0;
+	margin: 1.25rem auto;
+	position: relative;
+	right: 0;
+	text-align: center;
+	top: 0;
+	width: 5rem;
+}
+
+footer {
+	width: 100%;
+	height: 25vh;
+	background-color: #888686;
+	color: #fff;
+	margin-top: 2rem;
+}
+
+.top_header {
+	padding: 2rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: stretch;
+	justify-content: center;
+	position: relative;
+}
+
+.top_header section {
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	width: 100%;
+}
+
+.top_header span {
+	padding: 0 1rem;
+}
+
+.top_header .fa {
+	font-size: 2.188rem;
+}
+
+footer .border-shape {
+	width: 40%;
+}
+
+.address i {
+	display: flex;
+	align-items: flex-end;
+}
+
+.phonenumber i {
+	display: flex;
+	align-items: flex-end;
+}
+
+.email i {
+	display: flex;
+	align-items: flex-end;
+}
+
+footer .bottom_content section {
+	padding: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: Center;
+}
+
+.bottom_content a {
+	margin: 0 1.25rem;
+	color: rgba(255, 255, 255, 0.7);
+	transition: 0.5s;
+}
+
+.copyright {
+	padding: 1.8em 0;
+	margin-top: 2rem;
+	background-color: #1e1e1e;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 0.75rem;
+	font-family: "roboto";
+}

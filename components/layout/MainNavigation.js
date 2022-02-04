@@ -11,10 +11,10 @@ function MainNavigation() {
 			<nav>
 				<ul>
 					<li>
-						<Link href="/">All NextJS Sites</Link>
+						<Link href="/">NextJS Sites</Link>
 					</li>
 					<li>
-						<Link href="/new-meetup">Add New NextJS Sites</Link>
+						<Link href="/new-website">Add New Sites</Link>
 					</li>
 				</ul>
 			</nav>
