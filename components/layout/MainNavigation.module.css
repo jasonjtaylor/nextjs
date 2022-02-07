@@ -39,3 +39,23 @@
 	font-family: "Roboto";
 	font-weight: 100;
 }
+
+@media (max-width: 768px) {
+	.header a {
+		font-size: 0.9rem;
+	}
+	.header img {
+		height: 6rem;
+		width: 6rem;
+	}
+}
+
+@media (max-width: 576px) {
+	.header a {
+		font-size: 0.6rem;
+	}
+	.header img {
+		height: 4rem;
+		width: 4rem;
+	}
+}

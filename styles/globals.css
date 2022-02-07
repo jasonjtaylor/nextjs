@@ -109,3 +109,23 @@ footer .bottom_content section {
 	font-size: 0.75rem;
 	font-family: "roboto";
 }
+
+@media (max-width: 768px) {
+	.email,
+	.phonenumber,
+	.address,
+	a,
+	.copyright {
+		font-size: 0.8rem;
+	}
+}
+
+@media (max-width: 576px) {
+	.email,
+	.phonenumber,
+	.address,
+	a,
+	.copyright {
+		font-size: 0.6rem;
+	}
+}

@@ -11,7 +11,7 @@ function MainNavigation() {
 			<nav>
 				<ul>
 					<li>
-						<Link href="/">NextJS Sites</Link>
+						<Link href="/">Next.js Sites</Link>
 					</li>
 					<li>
 						<Link href="/new-website">Add New Sites</Link>
