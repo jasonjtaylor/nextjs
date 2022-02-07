@@ -1,10 +1,11 @@
 The Next.js app was designed to walk through the basics of Next.js its folder structure, styling, SEO and data fetching.
 
 The front end built with:
-Next.js
-React
-Mongo DB
-Vercel
+
+• Next.js
+• React
+• Mongo DB
+• Vercel
 
 Installation
 
@@ -16,7 +17,7 @@ Run the app $ npm run dev
 
 Run the app in the development mode. Open http://localhost:3000 to view application in the browser.
 
-Lessons learned & next steps
+Thoughts ans Lessons learned
 
 Don’t manually install. Use the install code from the Next.js documentation so the boiler plate folder structure is created it will save you time and headaches.
 
