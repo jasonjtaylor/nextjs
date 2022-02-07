@@ -8,6 +8,7 @@
 	padding: 0 10%;
 	cursor: pointer;
 	font-family: "Roboto";
+	font-weight: 100;
 }
 
 .header img {
@@ -22,11 +23,13 @@
 	display: flex;
 	align-items: baseline;
 	font-family: "Roboto";
+	font-weight: 1100;
 }
 
 .header li {
 	margin-left: 3rem;
 	font-family: "Roboto";
+	font-weight: 100;
 }
 
 .header a {
@@ -34,6 +37,7 @@
 	font-size: 1.25rem;
 	color: #030303;
 	font-family: "Roboto";
+	font-weight: 100;
 }
 
 .header a:hover,
