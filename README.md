@@ -50,7 +50,7 @@ You can host your Next.js site with any hosting provider.I used Vercel but Digit
 
 Don’t manually install. Use the install code from the Next.js documentation so the boiler plate folder structure is created it will save you time and headaches.
 
-Styling was tricky at first since I have primarily use SASS but once I messed around with it and understood the module.css and global.css structure it started to get easier so stick with it.
+Styling was tricky at first since I have primarily used SASS but once I messed around with it and understood the module.css and global.css structure it started to get easier so stick with it.
 
 The folder structure created when first building the app via npx-create-next is great. Only having to create your components folder and not having to worry about page routes was nice unlike when using React.
 
