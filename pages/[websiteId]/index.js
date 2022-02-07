@@ -2,7 +2,7 @@ import { MongoClient, ObjectId } from "mongodb";
 import { Fragment } from "react";
 import Head from "next/head";
 
-import websiteDetail from "../../components/website/WebsiteDetail";
+import WebsiteDetail from "../../components/websites/WebsiteDetail";
 
 function WebsiteDetails(props) {
 	return (
