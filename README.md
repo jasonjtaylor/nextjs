@@ -2,10 +2,10 @@ The Next.js app was designed to walk through the basics of Next.js its folder st
 
 The front end built with:
 
-Next.js
-React
-Mongo DB
-Vercel
+•	Next.js 
+•	React 
+•	Mongo DB 
+•	Vercel
 
 Installation
 
