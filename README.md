@@ -2,11 +2,11 @@
 
 This is a starter project for React that uses Next.js. The Next.js app was designed to walk through the basics of Next.js its folder structure, styling, SEO and data fetching.
 
-## About 
+## About
 
 Next.js is a framework that makes it easy to create universal React apps and React apps that do both client and server side rendering.
 
-With Next.js, React pages are automatically rendered on both client and server side, without the hassle of setting up dependancies like webpack or babel and with automatic routing and without the constraints of projects like Create React App. 
+With Next.js, React pages are automatically rendered on both client and server side, without the hassle of setting up dependencies like webpack or babel and with automatic routing and without the constraints of projects like Create React App.
 
 ## Built with:
 
@@ -17,7 +17,7 @@ With Next.js, React pages are automatically rendered on both client and server s
 
 ## Running locally in development mode
 
-To get started, just clone the repository and run npm install and npm run dev:
+To get started, just clone the repository and run npm install and npm run dev.
 
     git clone https://github.com/jasonjtaylor/nextjs
     npm install, npm install mongo
@@ -25,26 +25,25 @@ To get started, just clone the repository and run npm install and npm run dev:
 
 ## Building and deploying
 
-To run this site in production you should install modules then build the site with npm run build and run it with `npm run dev`:
+To run this site in production you should install modules then build the site with npm run build and run it with npm run dev.
 
     npm install
     npm run build
     npm run dev
-    
-    Run the app in the development mode. Open http://localhost:3000 to view application in the browser.
 
-## Database 
+    Run the app in the development mode. Open http://localhost:3000 to view application in the browser. It will not load automatically like npm start in React so you will have to type in local host 300o in the browser.
+
+## Database
 
 I used MongoDB Atlas cloud https://www.mongodb.com/cloud/atlas/ which has a free tier and other inexpensive options.
 
 ### Vercel GitHub integration
 
-You can integrate with a GitHub account to trigger automated deployments anytime you push to GitHub. 
+You can integrate Vercel with a GitHub account to trigger automated deployments anytime you push to GitHub. Deploying was easy using Vercel. Vercel automatically detects Next.js and optimizes the build for you. It Vercel is very fast and needs almost zero configuration. https://vercel.com/
 
 ## Hosting
 
-You can host your Next.js site with any hosting provider.I used Vercel but Digital Ocean works as well.
-
+You can host your Next.js site with any hosting provider. I used Vercel but Digital Ocean works as well with Next.js and most other hosting companies can provide hosting too but Vercel and Digital Ocean are the highest rated and easy to use based on my research.
 
 ## Thoughts and Lessons learned
 
