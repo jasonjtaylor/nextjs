@@ -1,97 +1,52 @@
-# Getting Started with Create React App
+# Getting Started with Next.js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a starter project for React that uses Next.js. The Next.js app was designed to walk through the basics of Next.js its folder structure, styling, SEO and data fetching.
 
-## Available Scripts
+## About 
 
-In the project directory, you can run:
+Next.js is a framework that makes it easy to create universal React apps and React apps that do both client and server side rendering.
 
-### `npm start`
+With Next.js, React pages are automatically rendered on both client and server side, without the hassle of setting up dependancies like webpack or babel and with automatic routing and without the constraints of projects like Create React App. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-
-
-The Next.js app was designed to walk through the basics of Next.js its folder structure, styling, SEO and data fetching.
-
-The front end built with:
+## Built with:
 
 • Next.js
 • React
 • Mongo DB
 • Vercel
 
-Installation
+## Running locally in development mode
 
-Clone this repository $ git clone https://github.com/jasonjtaylor/nextjs
+To get started, just clone the repository and run npm install and npm run dev:
 
-Install dependencies $ npm install and mongo
+    git clone https://github.com/jasonjtaylor/nextjs
+    npm install, npm install mongo
+    npm run dev
 
-Run the app $ npm run dev
+## Building and deploying
 
-Run the app in the development mode. Open http://localhost:3000 to view application in the browser.
+To run this site in production you should install modules then build the site with npm run build and run it with `npm run dev`:
 
-Thoughts and Lessons learned
+    npm install
+    npm run build
+    npm run dev
+    
+    Run the app in the development mode. Open http://localhost:3000 to view application in the browser.
+
+### Database 
+
+I used MongoDB Atlas cloud https://www.mongodb.com/cloud/atlas/ which has a free tier and other inexpensive options.
+
+### Vercel GitHub integration
+
+You can integrate with a GitHub account to trigger automated deployments anytime you push to GitHub. 
+
+### Hosting
+
+You can host your Next.js site with any hosting provider.I used Vercel but Digital Ocean works as well.
+
+
+### Thoughts and Lessons learned
 
 Don’t manually install. Use the install code from the Next.js documentation so the boiler plate folder structure is created it will save you time and headaches.
 
