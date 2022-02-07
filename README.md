@@ -17,7 +17,7 @@ Run the app $ npm run dev
 
 Run the app in the development mode. Open http://localhost:3000 to view application in the browser.
 
-Lessons learned & next steps
+Lessons learned
 
 Don’t manually install. Use the install code from the Next.js documentation so the boiler plate folder structure is created it will save you time and headaches.
 
