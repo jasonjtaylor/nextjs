@@ -39,9 +39,3 @@
 	font-family: "Roboto";
 	font-weight: 100;
 }
-
-.header a:hover,
-.header a:active,
-.header a.active {
-	color: #2a42f4;
-}
