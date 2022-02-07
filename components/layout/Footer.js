@@ -7,7 +7,7 @@ const Footer = () => {
 				<div className="top_header">
 					<section className="address">
 						<i>{/* <FaMapMarkedAlt /> */}</i>
-						<span> 8354 Six Forks Road Suite 204 Raleigh, NC 27615</span>
+						<span> 8354 Six Forks Road, Raleigh, NC 27615</span>
 					</section>
 					<section className="phonenumber">
 						<i>{/* <FaPhoneAlt /> */}</i>
