@@ -1,6 +1,7 @@
 The Next.js app was designed to walk through the basics of Next.js its folder structure, styling, SEO and data fetching.
 
 The front end built with:
+
 Next.js
 React
 Mongo DB
