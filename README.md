@@ -33,7 +33,7 @@ To run this site in production you should install modules then build the site wi
     
     Run the app in the development mode. Open http://localhost:3000 to view application in the browser.
 
-### Database 
+## Database 
 
 I used MongoDB Atlas cloud https://www.mongodb.com/cloud/atlas/ which has a free tier and other inexpensive options.
 
@@ -41,12 +41,12 @@ I used MongoDB Atlas cloud https://www.mongodb.com/cloud/atlas/ which has a free
 
 You can integrate with a GitHub account to trigger automated deployments anytime you push to GitHub. 
 
-### Hosting
+## Hosting
 
 You can host your Next.js site with any hosting provider.I used Vercel but Digital Ocean works as well.
 
 
-### Thoughts and Lessons learned
+## Thoughts and Lessons learned
 
 Don’t manually install. Use the install code from the Next.js documentation so the boiler plate folder structure is created it will save you time and headaches.
 
