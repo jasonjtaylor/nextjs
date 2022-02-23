@@ -3,7 +3,7 @@ import Card from "../ui/Card";
 import classes from "./WebsiteItem.module.css";
 import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
-// import { increment, decrement } from "./actions";
+import { increment, decrement } from "../actions";
 
 function WebsiteItem(props) {
 	const router = useRouter();
