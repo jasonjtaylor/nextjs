@@ -2,7 +2,11 @@ import { useEffect } from "react";
 import { MongoClient } from "mongodb";
 import WebsiteList from "../components/websites/WebsiteList";
 import Head from "next/head";
+import { Provider } from "react-redux";
+import { createStore } from "redux";
+import allReducers from "../components/reducers/index";
 
+const store = createStore(allReducers);
 function HomePage(props) {
 	return (
 		<div>
@@ -10,7 +14,9 @@ function HomePage(props) {
 				<title>NextJS Project</title>
 				<meta name="description" content="Browse for Next JS Websites!" />
 			</Head>
-			<WebsiteList websites={props.websites} />
+			<Provider store={store}>
+				<WebsiteList websites={props.websites} />
+			</Provider>
 		</div>
 	);
 }

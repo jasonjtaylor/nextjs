@@ -110,6 +110,25 @@ footer .bottom_content section {
 	font-family: "roboto";
 }
 
+.like-section {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.increment {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+.decrement {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
 @media (max-width: 768px) {
 	.email,
 	.phonenumber,
